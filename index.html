@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <title>SDP Cleaner</title>
+  <body>
+    <div style="display: flex; flex-direction: column">
+      <h1>SDP Cleaner</h1>
+      <form id="raw">
+        <h2>Raw Data</h2>
+        <input id="raw-data" placeholder="Paste JS encoded SDP Here" style="width: 75%">
+      </form>
+
+      <form id="parsed">
+        <h2>Parsed Data</h2>
+        <textarea
+          contenteditable="false"
+          id="parsed-data"
+          readonly
+          style="width: 75%; height: 500px"
+          >
+        </textarea>
+      </form>
+    </div>
+    <!-- app.js is your application code -->
+    <script src="app.js"></script>
+  </body>
+</html>
